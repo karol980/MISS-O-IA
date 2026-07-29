@@ -6,70 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Ao desenvolver uma nova inteligência artificial, qual princípio ético você considera mais importante?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Garantir a transparência e explicabilidade de suas decisões.",
+                afirmacao: "Sua prioridade é que a IA seja compreensível e auditável, promovendo a confiança e a responsabilidade. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Assegurar que a IA seja justa e livre de vieses.",
+                afirmacao: "Você se dedica a criar IAs que tratem todos os usuários de forma equitativa, evitando discriminação. "
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Em um futuro próximo, a IA se torna capaz de realizar tarefas criativas complexas, como compor músicas e pintar quadros. Como você vê o papel dos artistas humanos nesse cenário?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "A IA será uma ferramenta poderosa para os artistas, ampliando suas capacidades e explorando novas formas de expressão.",
+                afirmacao: "Você acredita na colaboração entre humanos e IA, onde a tecnologia serve como um catalisador para a criatividade humana. "
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "A arte gerada por IA nunca terá a profundidade e a emoção da arte humana, mantendo o valor intrínseco da criação humana.",
+                afirmacao: "Você valoriza a singularidade da experiência humana na arte e defende a preservação do toque humano na criação artística. "
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Sua empresa está considerando implementar um sistema de IA para otimizar processos e reduzir custos. Qual é a sua principal preocupação ao tomar essa decisão?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "O impacto nos empregos dos funcionários e a necessidade de requalificação profissional.",
+                afirmacao: "Você se preocupa com o bem-estar dos colaboradores e busca soluções que incluam programas de treinamento e transição de carreira. "
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "A segurança dos dados e a privacidade dos usuários que interagem com o sistema de IA.",
+                afirmacao: "Sua prioridade é a proteção de informações sensíveis, implementando rigorosos protocolos de segurança e conformidade. "
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você está participando de um projeto para desenvolver uma IA que auxilia no diagnóstico médico. Qual abordagem você defende para garantir a confiabilidade e a ética dessa IA?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "A IA deve ser uma ferramenta de apoio para médicos, com a decisão final sempre sendo humana.",
+                afirmacao: "Você defende que a IA deve complementar a expertise humana, fornecendo insights e análises, mas sem substituir o julgamento profissional. "
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "A IA deve ser treinada com uma vasta gama de dados diversificados para evitar vieses e garantir diagnósticos precisos para todos.",
+                afirmacao: "Você enfatiza a importância da diversidade nos dados de treinamento para construir IAs equitativas e eficazes em diferentes populações. "
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Como você imagina a interação entre humanos e IAs no cotidiano daqui a 20 anos?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "IAs serão assistentes onipresentes, integradas em todos os aspectos da vida, facilitando tarefas e otimizando decisões.",
+                afirmacao: "Você prevê um futuro de profunda integração, onde a IA se torna uma extensão natural das capacidades humanas. "
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "A interação será mais consciente e controlada, com humanos mantendo o domínio sobre as IAs e utilizando-as para fins específicos.",
+                afirmacao: "Você acredita na importância de manter a autonomia humana e um controle rigoroso sobre o desenvolvimento e uso da IA. "
             }
         ]
-    },
+    }
 ];
 
 
